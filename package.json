@@ -1,0 +1,32 @@
+{
+  "name": "kweb-test-2019",
+  "version": "1.0.0",
+  "description": "for fun",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js --delay 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "kweb-test-2019"
+  },
+  "keywords": [
+    "kweb"
+  ],
+  "author": "kmk",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "morgan": "^1.10.0",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
